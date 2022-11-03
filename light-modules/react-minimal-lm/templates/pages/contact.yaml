@@ -1,17 +1,18 @@
 title: 'React: Contact'
-baseUrl: https://agitated-lovelace-01a0b8.netlify.app
-routeTemplate: '/{language}{{@path}}'
+# baseUrl: http://localhost:3000
+# routeTemplate: '/{language}{{@path}}'
 
 dialog: spa-lm:pages/basic
 
-renderType: spa
-class: info.magnolia.rendering.spa.renderer.SpaRenderableDefinition
+class: info.magnolia.site.spa.norsu.rendering.renderer.SiteAwareSpaRenderableDefinition
+# renderType: spa
+# class: info.magnolia.rendering.norsu.renderer.SpaRenderableDefinition
 
 areas:
   main:
     title: Main Area
     availableComponents:
-      Paragraph:
-        id: spa-lm:components/paragraph
+      # Paragraph:
+      #   id: spa-lm:components/paragraph
       Expander:
         id: spa-lm:components/expander

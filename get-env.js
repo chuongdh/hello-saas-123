@@ -1,4 +1,5 @@
 const currentGitBranch = require('current-git-branch');
+// let envName = currentGitBranch().replace("env/", "");
 let envName = currentGitBranch().replace("env/", "");
 
 require('fs')
