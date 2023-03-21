@@ -1,0 +1,11 @@
+datasource:
+  autoCreate: true
+  $type: contentTypeDatasource
+  workspace: norsuGenres
+
+model:
+    properties:
+    - name: name
+      label: Title
+      type: String
+      required: true

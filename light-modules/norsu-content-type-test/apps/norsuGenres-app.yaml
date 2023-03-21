@@ -1,0 +1,11 @@
+!content-type:norsuGenre
+name: norsuGenres-app
+label: Norsu Genres
+
+permissions:
+  roles:
+    pages-app-editor: pages-app-editor 
+
+subApps:
+  detail:
+    label: Norsu Genre detail
